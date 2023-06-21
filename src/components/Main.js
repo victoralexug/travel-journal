@@ -4,7 +4,7 @@ export default function Main (props){
             <img className="travel-photo" src={props.item.imageUrl} alt='imageUrl' />
             <div className="container">
                 <div className="location">
-                    <img className="location-icon" src= 'https://e7.pngegg.com/pngimages/734/288/png-clipart-johnston-red-ginger-location-port-of-south-louisiana-computer-icons-location-people-heart-thumbnail.png' target='blank' />
+                    <img className="location-icon" src={props.item.locationIcon} target='blank' />
                     <span className="country">{props.item.location} </span>
                     <a href={props.item.googleMapsUrl} target="blank">view on google notes</a>
                 </div>
