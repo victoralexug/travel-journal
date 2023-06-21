@@ -24,6 +24,7 @@ nav{
   justify-content: center;
   display: flex;
   height: 16px;
+  justify-items: center;
 }
 
 .nav-header img {
